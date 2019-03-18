@@ -1,2 +1,2 @@
 all:
-    c++ chess.cpp -Wall -o chess
+	g++ chess.cpp -Wall -o Chess
