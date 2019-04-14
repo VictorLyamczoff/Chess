@@ -1,7 +1,7 @@
 #include "board_print_plain.h"
 #include "board.h"
 #include "board_print.h"
-#include "boadr_read.h"
+#include "board_read.h"
 #include <stdio.h>
 void printDeck(char deck[8][8])
 {
