@@ -2,8 +2,8 @@
 #include <board.h>
 #include <board_print.h>
 #include <board_print_plain.h>
-#include <ctest.h>
 #include <board_read.h>
+#include <ctest.h>
 
 char deck[8][8];
 

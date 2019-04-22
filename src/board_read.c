@@ -1,7 +1,7 @@
+#include "board_read.h"
 #include "board.h"
 #include "board_print.h"
 #include "board_print_plain.h"
-#include "board_read.h"
 #include <stdio.h>
 #include <stdlib.h>
 void input(char move[5], int moveint[4])
