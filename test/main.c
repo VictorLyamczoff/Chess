@@ -62,7 +62,7 @@ CTEST(Check_Figure, Incorrect)
     int expected = 1;
     ASSERT_EQUAL(expected, result);
 }
-CTEST(Pawn1, Correct)
+CTEST(PAWN, Correct)
 {
     board_print(deck);
     char move[4] = "a7a5";
@@ -73,7 +73,7 @@ CTEST(Pawn1, Correct)
     ASSERT_EQUAL(expected, result);
 }
 
-CTEST(Pawn1, Incorrect)
+CTEST(PAWN, Incorrect)
 {
     board_print(deck);
     char move[4] = "a7a3";
