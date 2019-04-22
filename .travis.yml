@@ -2,6 +2,6 @@ language: c
 compiler: gcc
 dist: xenial
 script: 
-	- make
-	- git ls-files src/ | xargs clang-format -i && git diff --exit-code
+    - make
+    - git ls-files src/ | xargs clang-format -i && git diff --exit-code
 
